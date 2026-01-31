@@ -17,17 +17,17 @@ The main goal is to showcase how data pipelines are built, validated, automated,
 
 ##  Project Architecture
 Raw JSON Files
-↓
+->
 Python Ingestion Script
-↓
+->
 PostgreSQL (raw schema)
-↓
+->
 SQL Data Validation
-↓
+->
 SQL Data Transformation
-↓
+->
 PostgreSQL (processed schema)
-↓
+->
 Apache Airflow DAG
 
 All components are deployed using **Docker Compose**, ensuring consistency across environments.
