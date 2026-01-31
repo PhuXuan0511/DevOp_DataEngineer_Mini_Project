@@ -1,6 +1,0 @@
-apache-airflow==2.8.1
-pandas
-sqlalchemy
-psycopg2-binary
-pytest
-requests
