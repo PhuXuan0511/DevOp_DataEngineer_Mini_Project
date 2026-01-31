@@ -34,7 +34,7 @@ All components are deployed using **Docker Compose**, ensuring consistency acros
 
 ---
 
-## 🧩 Project Components
+##  Project Components
 
 ### 1️ Data Ingestion
 - Implemented in Python
@@ -79,17 +79,21 @@ All components are deployed using **Docker Compose**, ensuring consistency acros
 - Git
 - Python 3.10+ (for local development/testing)
 
-### Run the pipeline
+## ▶️ Run the Pipeline
+
+Start all services using Docker Compose:
+
 ```bash
 docker compose up -d
-Access Airflow UI
+🌐 Access Airflow UI
+Open your browser and go to:
+
 http://localhost:8080
+🧪 Run Tests Locally
+Execute all unit, SQL, and DAG tests:
 
-Run tests locally
 pytest
-
-## Future Enhancements
-
+ Future Enhancements
 Incremental and partitioned data ingestion
 
 Advanced data validation using Great Expectations
@@ -102,8 +106,6 @@ Alerting on pipeline failures
 
 Data versioning and lineage tracking
 
-## Author
-
+ Author
 Phu Nguyen Xuan
 Aspiring Data Engineer / DevOps Engineer
-
