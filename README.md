@@ -98,6 +98,3 @@ Alerting on pipeline failures
 
 Data versioning and lineage tracking
 
-Author
-Phu Nguyen Xuan
-Aspiring Data Engineer / DevOps Engineer
