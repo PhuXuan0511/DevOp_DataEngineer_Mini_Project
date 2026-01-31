@@ -76,7 +76,6 @@ All components are deployed using **Docker Compose**, ensuring consistency acros
 
 Start all services using Docker Compose:
 
-```bash
 docker compose up -d
 Access the Airflow web interface:
 
