@@ -77,15 +77,15 @@ All components are deployed using **Docker Compose**, ensuring consistency acros
 Start all services using Docker Compose:
 
 docker compose up -d
+
 Access the Airflow web interface:
 
 http://localhost:8080
 
-Run Tests Locally
-Run all unit tests, SQL tests, and DAG integrity checks:
+Run all unit tests, SQL tests, and DAG integrity checks locally:
 
 pytest
-Future Enhancements
+## Future Enhancements
 Incremental and partitioned data ingestion
 
 Advanced data validation using Great Expectations
