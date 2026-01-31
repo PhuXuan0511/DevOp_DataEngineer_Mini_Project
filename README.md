@@ -72,40 +72,33 @@ All components are deployed using **Docker Compose**, ensuring consistency acros
 
 ---
 
-## Instructions (How to Run)
-
-### Prerequisites
-- Docker & Docker Compose installed
-- Git
-- Python 3.10+ (for local development/testing)
-
-## ▶️ Run the Pipeline
+## Run the Pipeline
 
 Start all services using Docker Compose:
 
 ```bash
 docker compose up -d
-🌐 Access Airflow UI
-Open your browser and go to:
+Access the Airflow web interface:
 
 http://localhost:8080
-🧪 Run Tests Locally
-Execute all unit, SQL, and DAG tests:
+
+Run Tests Locally
+Run all unit tests, SQL tests, and DAG integrity checks:
 
 pytest
- Future Enhancements
+Future Enhancements
 Incremental and partitioned data ingestion
 
 Advanced data validation using Great Expectations
 
 Cloud deployment (AWS)
 
-Monitoring with Prometheus & Grafana
+Monitoring with Prometheus and Grafana
 
 Alerting on pipeline failures
 
 Data versioning and lineage tracking
 
- Author
+Author
 Phu Nguyen Xuan
 Aspiring Data Engineer / DevOps Engineer
